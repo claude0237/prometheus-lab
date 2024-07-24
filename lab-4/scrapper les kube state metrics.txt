@@ -1,0 +1,4 @@
+ici on va au dela du simple requettage de l'etat de l'api en supervisant en eux meme les objets qui sont deployes (Les PODS).
+dans ce dossier lab-4 nous avons clone le repository : https://github.com/kubernetes/kube-state-metrics.git
+
+nous etant rendu dans le chemin "kube-state-metrics\examples\standard", deplyer tous les fichiers s'y trouvants

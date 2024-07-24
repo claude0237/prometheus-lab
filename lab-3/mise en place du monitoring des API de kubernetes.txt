@@ -1,0 +1,4 @@
+permet de remonter un certain nombre d'info lier a l'api kubernetes au niveau de prometheus
+
+# utiliser la doc pour affiner la config
+https://github.com/appscode/third-party-tools/blob/master/monitoring/prometheus/builtin/README.md

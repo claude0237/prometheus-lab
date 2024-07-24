@@ -1,0 +1,11 @@
+ici on a intreoduit le node exporte, on a utiliser les chart-helm prometheus community
+--https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-node-exporter
+
+apres installation du chart node-exporter, on a proceder au changement de la configmap de deploiement de prometheus, afin d'ajouter une target 
+pour scrapper les donnees du service node-exporter.
+
+on a par la suite supprimer et recreer la confimap et le prometheus deploiement deja en deploiement
+
+apres avoir fait cela, nous pouvons verifier que la target est bien ajouter sur prometheus et que les metrics arrivent bien,
+si ok on ajoute le dashboard node-exporter sur grafana, on utilise donc l'ID recuper sur https://grafana.com/grafana/dashboards/   site communautaires 
+de grafana ou les participants ont deja developpes des dashboard pour certaines services.

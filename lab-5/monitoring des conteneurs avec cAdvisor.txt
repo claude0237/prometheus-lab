@@ -1,0 +1,2 @@
+cAdvisor est un outil de monitoring tres utilise pour les microservices (infra Docker).
+kubelet embarque deja cAdvisor et expose deja les metrics de cAdvisor directement via un service qui est interne a kubernetes
